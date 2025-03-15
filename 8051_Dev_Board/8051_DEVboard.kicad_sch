@@ -1,0 +1,525 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "99a522d0-89f2-4624-8a03-f80309163bf2")
+	(paper "A4")
+	(title_block
+		(title "8051_DEV_BOARD")
+		(date "2025-02-09")
+		(company "techMake")
+		(comment 1 "KRISHNENDU DINDA")
+		(comment 2 "reachtodinda@gmail.com")
+		(comment 3 "krishnendudinda404@gmail.com")
+		(comment 4 "9134412458")
+	)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x05"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x05"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x05_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 138.43 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b86294a-3397-4491-9688-2aac7588c831")
+	)
+	(junction
+		(at 143.51 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41e759da-e502-439b-b037-d056d5a8efaa")
+	)
+	(junction
+		(at 140.97 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c6f1a3f-a8e6-4872-845b-d628e07d0a9a")
+	)
+	(junction
+		(at 135.89 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bbd60ca-5b87-40f8-b4a9-f47e37272628")
+	)
+	(wire
+		(pts
+			(xy 143.51 44.45) (xy 147.32 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25662fae-abdf-4069-84c1-5cb4946d0f52")
+	)
+	(wire
+		(pts
+			(xy 140.97 44.45) (xy 143.51 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f796a28-8d40-429a-899b-3983bdafc80a")
+	)
+	(wire
+		(pts
+			(xy 133.35 44.45) (xy 135.89 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9383b383-918a-451a-8d10-f293a8c66d2f")
+	)
+	(wire
+		(pts
+			(xy 138.43 44.45) (xy 140.97 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc2bc4a7-a411-4cd4-91cb-96aecf085e1b")
+	)
+	(wire
+		(pts
+			(xy 135.89 44.45) (xy 138.43 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdc4c85c-f541-43dc-bc1e-96cc8aa12c8b")
+	)
+	(text "MCU_Connection"
+		(exclude_from_sim no)
+		(at 84.328 61.722 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "1418e132-b10a-40ba-9c20-82e2ab646de5")
+	)
+	(text "O/P_I/P_LCD"
+		(exclude_from_sim no)
+		(at 187.198 61.976 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "766a6f38-4cd1-469c-b094-e00bec8526b4")
+	)
+	(text "KSR805152-MB1"
+		(exclude_from_sim no)
+		(at 139.192 6.604 0)
+		(effects
+			(font
+				(face "Calibri")
+				(size 7 7)
+				(thickness 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "80090313-a38b-4f58-b077-ec45edb62ea1")
+	)
+	(label "VCC"
+		(at 147.32 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cedddf17-197e-483d-8eb1-9b7937ce09ac")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 138.43 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c852a3a-4662-4d63-89c0-c91de89b4e9c")
+		(property "Reference" "J9"
+			(at 138.43 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_PINS"
+			(at 138.176 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+			(at 138.43 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 138.43 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1a6215a7-eb2b-4516-a7de-412131e6204e")
+		)
+		(pin "3"
+			(uuid "741b87fd-c571-4f5c-8804-484a151c2799")
+		)
+		(pin "4"
+			(uuid "3eb0a4d4-104d-4403-8ee7-cb237d2c5657")
+		)
+		(pin "1"
+			(uuid "a1e78c47-1221-491c-9fe9-38686b0777ed")
+		)
+		(pin "5"
+			(uuid "c0b8ec49-bc86-4e4a-bc85-684174920ad8")
+		)
+		(instances
+			(project "8051_DEVboard"
+				(path "/99a522d0-89f2-4624-8a03-f80309163bf2"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.48 67.564)
+		(size 65.786 53.848)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c7e16d1e-2c51-424c-b01e-fb245955ec94")
+		(property "Sheetname" "OP_IP_LCD"
+			(at 157.48 66.8524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "OP_IP_LCD.kicad_sch"
+			(at 157.48 121.9966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "8051_DEVboard"
+				(path "/99a522d0-89f2-4624-8a03-f80309163bf2"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 51.816 66.802)
+		(size 71.882 54.356)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eace9eb7-1634-437f-a260-ec54521076e1")
+		(property "Sheetname" "MCU_CONNECTION"
+			(at 51.816 66.0904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 51.816 121.7426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "8051_DEVboard"
+				(path "/99a522d0-89f2-4624-8a03-f80309163bf2"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
